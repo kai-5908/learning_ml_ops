@@ -6,12 +6,11 @@ lint:
 
 .PHONY: test
 test:
-	poetry run pytest tests -n auto
+	poetry run pytest tests
 
 .PHONY: test-cov
 test-cov:
 	poetry run pytest tests \
-		-n auto \
 		--cov src \
 		--cov-branch \
 		--junitxml pytest.xml \
