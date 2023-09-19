@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learning-ml-ops"
+version = "0.1.0"
+description = ""
+authors = ["kai-5908 <dolce.cantabile.maestoso@gmail.com>"]
+readme = "README.md"
+packages = [{include = "learning_ml_ops"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.2"
+black = "^23.9.1"
+mypy = "^1.5.1"
+isort = "^5.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
